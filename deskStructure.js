@@ -276,20 +276,8 @@ export default () =>
                     .title('Staff Pages')
                     .items([
                       S.documentListItem()
-                        .id('welcomeStaff')
-                        .title('Welcome')
-                        .schemaType('page'),
-                      S.documentListItem()
-                        .id('employment')
-                        .title('Employment')
-                        .schemaType('page'),
-                      S.documentListItem()
                         .id('currentOpenings')
                         .title('Current Openings')
-                        .schemaType('page'),
-                      S.documentListItem()
-                        .id('staffSummerDates')
-                        .title('Summer Dates')
                         .schemaType('page'),
                       S.documentListItem()
                         .id('staffTestimonials')
