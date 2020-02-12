@@ -235,6 +235,31 @@ export default () =>
                 .id('eventsRetreats')
                 .title('Private Events & Retreats')
                 .schemaType('page'),
+              S.listItem()
+                .title('Events & Retreats Pages')
+                .icon(MdFolder)
+                .child(
+                  S.list()
+                    .title('Events & Retreats Pages')
+                    .items([
+                      S.documentListItem()
+                        .id('eventsRetreatsFacilites')
+                        .title('Facilities')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('eventsRetreatsPhotos')
+                        .title('Photos')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('eventsRetreatsRecommendedVendors')
+                        .title('Recommended Vendors')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('eventsRetreatsContactUs')
+                        .title('Contact Us')
+                        .schemaType('page')
+                    ])
+                ),
               S.documentListItem()
                 .id('donateNow')
                 .title('Donate Now')

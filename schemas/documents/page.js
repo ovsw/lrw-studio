@@ -59,7 +59,8 @@ export default {
           {title: 'About us', value: 'About Laurelwood'},
           {title: 'Current Families', value: 'Current Families'},
           {title: 'Donate', value: 'Donate'},
-          {title: 'Staff', value: 'Staff'}
+          {title: 'Staff', value: 'Staff'},
+          {title: 'Retreats & Events', value: 'Retreats & Events'}
         ],
         layout: 'radio',
         direction: 'horizontal'
