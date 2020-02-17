@@ -83,6 +83,10 @@ export default () =>
                             .title('Activities Pages')
                             .items([
                               S.documentListItem()
+                                .id('typicalDay')
+                                .title('A Typical Day')
+                                .schemaType('page'),
+                              S.documentListItem()
                                 .id('tripsSpecialEvents')
                                 .title('Trips & Special Events')
                                 .schemaType('page'),
@@ -91,8 +95,8 @@ export default () =>
                                 .title('Jewish Life')
                                 .schemaType('page'),
                               S.documentListItem()
-                                .id('typicalDay')
-                                .title('A Typical Day')
+                                .id('activityPlans')
+                                .title('Activity Plans')
                                 .schemaType('page')
                             ])
                         )
@@ -116,6 +120,14 @@ export default () =>
                       S.documentListItem()
                         .id('datesRatesProspectiveDayCamp')
                         .title('Day Camp Dates & Rates')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('datesRatesBonim')
+                        .title('Bonim Dates & Rates')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('datesRatesSIT')
+                        .title('SIT Dates & Rates')
                         .schemaType('page'),
                       S.documentListItem()
                         .id('tuitionAssistance')
@@ -153,7 +165,7 @@ export default () =>
                         .schemaType('page'),
                       S.documentListItem()
                         .id('ourStaff')
-                        .title('Our Staff')
+                        .title('Meet Our Team')
                         .schemaType('page'),
                       S.documentListItem()
                         .id('letterFromTheDirector')
