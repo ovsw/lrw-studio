@@ -88,6 +88,10 @@ export default {
       options: {hotspot: true}
     },
     {
+      type: 'avatarImage',
+      options: {hotspot: true}
+    },
+    {
       type: 'localFile'
     },
     {

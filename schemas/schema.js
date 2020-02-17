@@ -18,6 +18,7 @@ import bodyPortableText from './objects/bodyPortableText'
 import bioPortableText from './objects/bioPortableText'
 import excerptPortableText from './objects/excerptPortableText'
 import mainImage from './objects/mainImage'
+import avatarImage from './objects/avatarImage'
 import slideshowImage from './objects/slideshowImage'
 import localFile from './objects/localFile'
 import authorReference from './objects/authorReference'
@@ -42,6 +43,7 @@ export default createSchema({
     category,
     author,
     mainImage,
+    avatarImage,
     slideshowImage,
     localFile,
     authorReference,

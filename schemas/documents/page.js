@@ -93,12 +93,14 @@ export default {
   preview: {
     select: {
       title: 'title',
-      slug: 'slug'
+      slug: 'slug',
+      media: 'headerImage'
     },
-    prepare ({title = 'No title', slug = {}}) {
+    prepare ({title = 'No title', slug = {}, media}) {
       const path = `/${slug.current}/`
       return {
         title,
+        media,
         subtitle: path
       }
     }

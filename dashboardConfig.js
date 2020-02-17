@@ -25,20 +25,10 @@ export default {
                 //   apiId: '1e783139-c816-42c5-a6cf-95d7f294ccaf'
                 // },
                 {
-                  buildHookId: '5deb9176ab47340c10c2c537',
+                  buildHookId: '5e44430ef2181835149ff124',
                   title: 'Laurelwood Website Front-End',
                   name: 'lrw-app',
-                  apiId: '7a92d99f-c682-4d28-8f1e-509655d40020'
-                }
-              ]
-            }
-          },
-          {
-            name: 'gatsby',
-            options: {
-              instances: [
-                {
-                  instanceUrl: '<previewInstanceUrl>'
+                  apiId: 'cb21f6f2-55e1-4281-bd36-8487d1540f2b'
                 }
               ]
             }
