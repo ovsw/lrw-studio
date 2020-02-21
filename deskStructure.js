@@ -114,6 +114,10 @@ export default () =>
                         .title('FAQs')
                         .schemaType('page'),
                       S.documentListItem()
+                        .id('datesRates')
+                        .title('Dates & Rates')
+                        .schemaType('page'),
+                      S.documentListItem()
                         .id('datesAndRatesProspective')
                         .title('Overnight Dates & Rates')
                         .schemaType('page'),
@@ -140,10 +144,6 @@ export default () =>
                       S.documentListItem()
                         .id('requestInfo')
                         .title('Request Info')
-                        .schemaType('page'),
-                      S.documentListItem()
-                        .id('enrollNow')
-                        .title('Enroll Now')
                         .schemaType('page')
                     ])
                 )
@@ -198,6 +198,10 @@ export default () =>
                       S.documentListItem()
                         .id('campNewsletter')
                         .title('Camp Newsletter')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('videos')
+                        .title('Videos')
                         .schemaType('page')
                     ])
                 )
@@ -220,14 +224,6 @@ export default () =>
                       S.documentListItem()
                         .id('parentLogin')
                         .title('Parent Log-in')
-                        .schemaType('page'),
-                      S.documentListItem()
-                        .id('donate')
-                        .title('Donate')
-                        .schemaType('page'),
-                      S.documentListItem()
-                        .id('referAFriend')
-                        .title('Refer a Friend')
                         .schemaType('page'),
                       S.documentListItem()
                         .id('whatsNew')
