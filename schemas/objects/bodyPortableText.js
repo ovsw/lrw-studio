@@ -92,6 +92,9 @@ export default {
       options: {hotspot: true}
     },
     {
+      type: 'datesRatesLinks'
+    },
+    {
       type: 'localFile'
     },
     {

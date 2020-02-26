@@ -25,11 +25,12 @@ import authorReference from './objects/authorReference'
 import youtube from './objects/youtube'
 import mytable from './objects/myTable'
 import iframeEmbed from './objects/iframeEmbed'
+import datesRatesLinks from './objects/datesRatesLinks'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
-  name: 'blog',
+  name: 'Camp Laurelwood',
   // Then proceed to concatenate our our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
@@ -52,6 +53,7 @@ export default createSchema({
     excerptPortableText,
     youtube,
     iframeEmbed,
+    datesRatesLinks,
     mytable
 
     // When added to this list, object types can be used as
