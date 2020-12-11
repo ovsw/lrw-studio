@@ -23,9 +23,11 @@ import slideshowImage from './objects/slideshowImage'
 import localFile from './objects/localFile'
 import authorReference from './objects/authorReference'
 import youtube from './objects/youtube'
+import vimeo from './objects/vimeo'
 import mytable from './objects/myTable'
 import iframeEmbed from './objects/iframeEmbed'
 import datesRatesLinks from './objects/datesRatesLinks'
+import BoldItalicLinksPortableText from './objects/boldItalicLinksPortableText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -52,8 +54,10 @@ export default createSchema({
     bioPortableText,
     excerptPortableText,
     youtube,
+    vimeo,
     iframeEmbed,
     datesRatesLinks,
+    BoldItalicLinksPortableText,
     mytable
 
     // When added to this list, object types can be used as

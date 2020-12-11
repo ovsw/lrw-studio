@@ -24,6 +24,10 @@ export default () =>
             .title('Pages')
             .items([
               S.documentListItem()
+                .id('covidUpdates')
+                .title('Health and Safety Updates')
+                .schemaType('page'),
+              S.documentListItem()
                 .id('prospectiveFamilies')
                 .title('Prospective Families')
                 .schemaType('page'),

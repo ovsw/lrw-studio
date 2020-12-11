@@ -101,6 +101,9 @@ export default {
       type: 'youtube'
     },
     {
+      type: 'vimeo'
+    },
+    {
       type: 'mytable'
     },
     {
