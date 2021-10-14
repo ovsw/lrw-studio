@@ -9758,6 +9758,11 @@ sanity-plugin-seo-tools@^1.0.6:
     regenerator-runtime "^0.13.7"
     yoastseo "^1.90.0"
 
+sanity-plugin-table@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/sanity-plugin-table/-/sanity-plugin-table-2.3.0.tgz#432bf3d626b6678f38fecc7a09488603403a6ddb"
+  integrity sha512-5aTTjL7Bpyc52MqWg+d/Gk8qDy3XuyQ0IT23qFCXXYolhPNIQQSOUVgKHMWdXgTC5OvcnXhTMCh5oRBCXXtbOw==
+
 sassdash@0.9.0:
   version "0.9.0"
   resolved "https://registry.npmjs.org/sassdash/-/sassdash-0.9.0.tgz#e2114e80af0c01639d1c6b88a3eb350740cb1169"
