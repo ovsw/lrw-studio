@@ -31,7 +31,7 @@
     "react-icons": "^3.8.0",
     "react-youtube": "^7.9.0",
     "sanity-plugin-dashboard-widget-document-list": "^0.0.8",
-    "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
+    "sanity-plugin-dashboard-widget-netlify": "^1.2.1",
     "sanity-plugin-seo-tools": "^1.0.6",
     "sanity-plugin-table": "^2.3.0",
     "styled-components": "^5.2.0"

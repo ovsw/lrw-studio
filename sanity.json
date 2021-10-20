@@ -16,9 +16,9 @@
     "@sanity/dashboard",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
-    "dashboard-widget-netlify",
     "seo-tools",
-    "table"
+    "table",
+    "dashboard-widget-netlify"
   ],
   "parts": [
     {
