@@ -1,8 +1,11 @@
 import S from '@sanity/desk-tool/structure-builder'
 import { MdSettings, MdFolder, MdMap } from 'react-icons/md/'
+import { FaQuestionCircle } from 'react-icons/fa'
 
 const hiddenDocTypes = listItem =>
-  !['category', 'author', 'post', 'page', 'siteSettings', 'mapMarker'].includes(listItem.getId())
+  !['category', 'author', 'post', 'page', 'siteSettings', 'mapMarker', 'faqItem'].includes(
+    listItem.getId()
+  )
 
 export default () =>
   S.list()
@@ -345,7 +348,28 @@ export default () =>
               S.documentListItem()
                 .id('jfam')
                 .title('JFAM')
-                .schemaType('page')
+                .schemaType('page'),
+              S.listItem()
+                .title('JFAM Weekend Pages')
+                .icon(MdFolder)
+                .child(
+                  S.list()
+                    .title('JFAM Weekend Pages')
+                    .items([
+                      S.documentListItem()
+                        .id('jfamWeekend1')
+                        .title('Weekend 1')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('0e5c8c60-a059-47a1-8472-86c9e31aa1a7')
+                        .title('Weekend 2')
+                        .schemaType('page'),
+                      S.documentListItem()
+                        .id('7dafe87c-14c9-4d84-9e89-1d3312bf674f')
+                        .title('Weekend 3')
+                        .schemaType('page')
+                    ])
+                )
             ])
         ),
       S.listItem()
@@ -357,6 +381,11 @@ export default () =>
         .icon(MdMap)
         .schemaType('mapMarker')
         .child(S.documentTypeList('mapMarker').title('Map Markers')),
+      S.listItem()
+        .title('FAQ Items')
+        .icon(FaQuestionCircle)
+        .schemaType('faqItem')
+        .child(S.documentTypeList('faqItem').title('FAQ Items')),
       // S.listItem()
       //   .title('Authors')
       //   .icon(MdPerson)

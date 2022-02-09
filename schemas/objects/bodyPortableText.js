@@ -108,6 +108,9 @@ export default {
     },
     {
       type: 'iframeEmbed'
+    },
+    {
+      type: 'faqBlock'
     }
   ]
 }

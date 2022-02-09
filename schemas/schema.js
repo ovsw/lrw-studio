@@ -28,6 +28,8 @@ import mytable from './objects/myTable'
 import iframeEmbed from './objects/iframeEmbed'
 import datesRatesLinks from './objects/datesRatesLinks'
 import BoldItalicLinksPortableText from './objects/boldItalicLinksPortableText'
+import faqItem from './objects/faqItem'
+import faqBlock from './objects/faqBlock'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -58,7 +60,9 @@ export default createSchema({
     iframeEmbed,
     datesRatesLinks,
     BoldItalicLinksPortableText,
-    mytable
+    mytable,
+    faqItem,
+    faqBlock
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
