@@ -36,6 +36,9 @@
     "sanity-plugin-table": "^2.3.0",
     "styled-components": "^5.2.0"
   },
+  "resolutions": {
+    "axios": "0.31.1"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
